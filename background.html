@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Background</title>
+  <style>
+    body {
+      height: ;
+      background: url("/aula1/imagen/download.jpg") no-repeat;
+      background-size: cover;
+    }
+
+    h1 {
+      color: aliceblue;
+      text-align: center;
+    }
+
+    .nome {
+      color: aliceblue;
+    }
+
+    .nome #text-nome {
+      width: 500px;
+    }
+
+    .nome #selected {
+      color: blue;
+    }
+
+    #botao {
+      color: blue;
+      background-color: red;
+      margin-left: 770px;
+    }
+  </style>
+</head>
+
+<body>
+  <form>
+    <h1>CADASTRO OCULOS</h1>
+    <div>
+      <label class="nome">
+        Nome <input id="text-nome" type="text"> </label>
+      <label class="nome">Tipo de Lente <input type="text">
+      </label>
+    </div><br>
+    <div>
+      <label class="nome">Status
+        <select id="selected">
+          <option value="" selected></option>
+          <option value="loja">Loja</option>
+          <option value="montagem">Montagem</option>
+        </select>
+      </label>
+    </div>
+    <div>
+      <button id="botao">Salvar</button>
+    </div>
+  </form>
+
+</body>
+
+</html>
